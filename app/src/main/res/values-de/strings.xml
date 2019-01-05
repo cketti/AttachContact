@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- App name -->
+    <string name="app_name">Attach Contact</string>
+
+    <!-- Title of the "pick content" activity (displayed in the "Choose an attachment" dialog) -->
+    <string name="pick_contact_activity_title">Kontakt hinzufügen</string>
+
+    <!-- Error messages -->
+    <string name="error_activity_not_found">Es konnte keine App gefunden werden um einen Kontakt auszuwählen</string>
+    <string name="error_processing_contact">Fehler während der Verarbeitung des ausgewählten Kontakts</string>
+    <string name="error_no_permission">\"Attach Contact\" benötigt Zugriff auf deine Kontakte um vCard-Dateien bereitstellen zu können</string>
+
+    <!-- Permission-related messages -->
+    <string name="permission_rationale">Um vCard-Dateien bereitstellen zu können, benötigt \"Attach Contact\" Zugriff auf deine Kontakte.</string>
+    <string name="okay_action">OK</string>
+</resources>
