@@ -33,6 +33,16 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.OPENABLE"/>
             </intent-filter>
+
+            <!-- The Outlook app only allows attaching images using GET_CONTENT -->
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+
+                <data android:mimeType="image/*"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+            </intent-filter>
         </activity>
 
     </application>
