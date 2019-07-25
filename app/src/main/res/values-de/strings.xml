@@ -14,4 +14,21 @@
     <!-- Permission-related messages -->
     <string name="permission_rationale">Um vCard-Dateien bereitstellen zu können, benötigt \"Attach Contact\" Zugriff auf deine Kontakte.</string>
     <string name="okay_action">OK</string>
+
+    <!-- Main screen -->
+    <string name="intro_heading">Worum geht es in der App?</string>
+    <string name="intro_text">Diese App ermöglicht es dir deine Kontakte als vCard-Dateien (.vcf) an E-Mails anzuhängen.</string>
+    <string name="usage_heading">Wie benutzt man die App?</string>
+    <string name="usage_text_format">
+1. Öffne den **Verfassen-Bildschirm** deiner Email-App, indem du eine neue Nachricht erstellst oder auf eine existierende E-Mail antwortest.\n
+1. Finde die Schaltfläche, mit der man einen Anhang mit **Androids Datei-Auswahl-Dialog** (\"Öffnen aus\") hinzufügen kann.\\\n
+Hinweis: Einige E-Mail-Apps verwenden den System-Dialog nur für Bilder/Fotos. Aus diesem Grund gibt *%1$s* vor Bilder zu unterstützen.\n
+1. In Androids Datei-Auswahl-Dialog kannst du die \"**%2$s**\"-Option im seitlichen Menü finden.\n
+1. Beim ersten Mal wirst du gefragt, ob du den **Zugriff** auf deine Kontakte **zulassen** willst.\n
+1. Danach wird deine Kontakte-App gestartet, damit du einen **Kontakt auswählen** kannst.\n
+1. Diese App wird dann die Kontaktdaten als vCard-Datei (.vcf) an die E-Mail-App übergeben.
+    </string>
+    <string name="about_heading">App-Information</string>
+    <string name="about_text_format">Version: %s\nAutor: %s</string>
+    <string name="send_feedback_button">Feedback senden</string>
 </resources>

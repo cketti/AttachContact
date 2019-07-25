@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="author" translatable="false">cketti</string>
+    <string name="feedback_email" translatable="false">cketti.apps+attachcontact\@gmail.com</string>
+    <string name="feedback_subject" translatable="false">Feedback for \'Attach Contact\'</string>
+    <string name="feedback_placeholder" translatable="false">&lt;Please insert your feedback here&gt;</string>
+</resources>

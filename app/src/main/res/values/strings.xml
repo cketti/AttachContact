@@ -12,4 +12,21 @@
     <!-- Permission-related messages -->
     <string name="permission_rationale">In order to provide vCard files, \"Attach Contact\" needs access to your contacts.</string>
     <string name="okay_action">OK</string>
+
+    <!-- Main screen -->
+    <string name="intro_heading">What is the app about?</string>
+    <string name="intro_text">This app allows you to attach your contacts as vCard (.vcf) files when composing an email.</string>
+    <string name="usage_heading">How to use the app?</string>
+    <string name="usage_text_format">
+1. Open the **compose screen** of your **email app** by creating a new message or replying to an existing email.\n
+1. Locate the button that allows you to add an attachment using **Android\'s file picker**.\\\n
+Note: Some email apps only use the system file picker for images/photos. For this reason *%1$s* pretends to support images.\n
+1. In Android\'s file picker screen you can find the \"**%2$s**\" option in the side drawer.\n
+1. If this is the first time, you will be asked to **grant** this app the **permission** to access your contacts.\n
+1. Afterwards your contacts app will be launched for you to **choose a contact**.\n
+1. This app will then pass the contact\'s data as vCard (.vcf) file to the email app.
+    </string>
+    <string name="about_heading">About</string>
+    <string name="about_text_format">Version: %s\nAuthor: %s</string>
+    <string name="send_feedback_button">Send feedback</string>
 </resources>
