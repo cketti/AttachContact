@@ -13,6 +13,8 @@ android {
         targetSdkVersion 28
 
         applicationId "de.cketti.attachcontact"
+
+        resConfigs "en", "de"
     }
 
     buildTypes {
