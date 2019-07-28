@@ -20,6 +20,7 @@ import android.Manifest
 import android.app.Activity
 import android.app.Dialog
 import android.content.ActivityNotFoundException
+import android.content.DialogInterface
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
@@ -160,6 +161,11 @@ class PickContactActivity : AppCompatActivity() {
                     pickContactActivity.requestContactPermission()
                 }
             }.create()
+        }
+
+        override fun onCancel(dialog: DialogInterface?) {
+            super.onCancel(dialog)
+            requireActivity().finish()
         }
     }
 
