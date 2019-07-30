@@ -26,7 +26,4 @@ Note: Some email apps only use the system file picker for images/photos. For thi
 1. Afterwards your contacts app will be launched for you to **choose a contact**.\n
 1. This app will then pass the contact\'s data as vCard (.vcf) file to the email app.
     </string>
-    <string name="about_heading">About</string>
-    <string name="about_text_format">Version: %s\nAuthor: %s</string>
-    <string name="send_feedback_button">Send feedback</string>
 </resources>

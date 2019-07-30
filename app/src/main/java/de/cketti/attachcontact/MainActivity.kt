@@ -18,10 +18,8 @@ package de.cketti.attachcontact
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import de.cketti.mailto.EmailIntentBuilder
-import kotlinx.android.synthetic.main.activity_main.*
 import io.noties.markwon.Markwon
-
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -34,18 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         markwon = Markwon.create(this)
 
-        setAboutText()
         setUsageText()
-
-        sendFeedbackButton.setOnClickListener {
-            sendFeedback()
-        }
-    }
-
-    private fun setAboutText() {
-        val version = BuildConfig.VERSION_NAME
-        val author = getString(R.string.author)
-        aboutText.text = getString(R.string.about_text_format, version, author)
     }
 
     private fun setUsageText() {
@@ -53,13 +40,5 @@ class MainActivity : AppCompatActivity() {
         val pickContactActivityTitle = getString(R.string.pick_contact_activity_title)
         val markdownText = getString(R.string.usage_text_format, appName, pickContactActivityTitle)
         markwon.setMarkdown(usageText, markdownText)
-    }
-
-    private fun sendFeedback() {
-        EmailIntentBuilder.from(this)
-            .to(getString(R.string.feedback_email))
-            .subject(getString(R.string.feedback_subject))
-            .body(getString(R.string.feedback_placeholder))
-            .start()
     }
 }

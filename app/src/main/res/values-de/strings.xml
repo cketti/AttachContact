@@ -28,7 +28,4 @@ Hinweis: Einige E-Mail-Apps verwenden den System-Dialog nur für Bilder/Fotos. A
 1. Danach wird deine Kontakte-App gestartet, damit du einen **Kontakt auswählen** kannst.\n
 1. Diese App wird dann die Kontaktdaten als vCard-Datei (.vcf) an die E-Mail-App übergeben.
     </string>
-    <string name="about_heading">App-Information</string>
-    <string name="about_text_format">Version: %s\nAutor: %s</string>
-    <string name="send_feedback_button">Feedback senden</string>
 </resources>
